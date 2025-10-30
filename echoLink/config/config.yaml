@@ -1,0 +1,12 @@
+# config/config.yaml
+server:
+  port: 8080
+
+postgres:
+  url: "postgres://aayush:aayush1000@localhost:5432/echoLink_db?sslmode=disable"
+
+ml_service:
+  url: http://localhost:5555
+
+jwt:
+  secret: super-secret-jwt-for-hackathon

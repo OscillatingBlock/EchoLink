@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment Variables
+*.env
+.env.*
+
+# Dependency/Build artifacts
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+*.log
+
+# Byte-compiled / cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+ruff_cache/
+coverage.xml
+
+# FastAPI / Uvicorn
+*.sqlite3
+
+# IDE related
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Audio/temp data
+*.wav
+*.mp3
+*.ogg
+tmp_audio/
+temp/
+recordings/
+
+# Model files / artifacts
+models/
+checkpoints/
+*.bin
+*.pt
+*.onnx
+
+# Docker
+docker-data/
